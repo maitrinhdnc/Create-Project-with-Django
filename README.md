@@ -13,6 +13,16 @@
 <pre>sudo apt install python3-pip</pre>
 <p>Install the venv package to create your virtual environment:</p>
 <pre color="grey">sudo apt-get install python3.8-venv</pre>
+... 
+<h5>Create Project</h5>
+<pre>mkdir django-project
+cd django-project
+python3.8 -m venv my_env
+source my_env/bin/activate
+pip install django
+django-admin --version</pre>
+
+
 
 
 
