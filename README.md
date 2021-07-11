@@ -15,18 +15,15 @@
 <pre color="grey">sudo apt-get install python3.8-venv</pre>
 ... 
 <h5>Create Project</h5>
-<pre>
-  <ol>
-    <li>mkdir django-project</li>
-    <li>cd django-project</li>
-    <li>python3.8 -m venv my_env</li>
-    <li>source my_env/bin/activate</li>
-    <li>pip install django</li>
-    <li>django-admin --version</li>
-    <li>django-admin startproject crm_project</li>
-    <li> <p>Run server: <code> python manage.py runserver</code></li>
-</ol>
-</pre>
+<code>mkdir django-project</code></n>
+<code>cd django-project</code></n>
+<code>python3.8 -m venv my_env</code></n>
+<code>source my_env/bin/activate</code></n>
+<code>pip install django</code></n>
+<code>django-admin --version</code></n>
+<code>django-admin startproject crm_project</code></n>
+Run server: <code> python manage.py runserver</code></n>
+
 
 
 
