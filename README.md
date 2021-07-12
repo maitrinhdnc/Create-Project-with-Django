@@ -26,12 +26,14 @@
  <h5>Testing the Development Server</h5>
  <ol>
     <li>Run server: <code>$   python manage.py runserver</code></li>
+    <p> If you want to change port:  <code>$   python manage.py runserver <i>8888</i></code>
     <li>Visit your server’s IP address followed by :8000 in your web browser. For example: <i>http://127.0.0.1:8000/</i></li>
     <p>You should see something that looks like this:</p>
     <img src="https://user-images.githubusercontent.com/85974492/125220336-b9132480-e2f0-11eb-9074-364f85a7447b.png">
     <li>To access the admin interface, add /admin/ to the end of your URL:<code>http://your_server_ip:8000/admin/</code></li><br>
     <img src="https://assets.digitalocean.com/articles/eng_python/django/django-admin-login.png">
     <p>If you enter the admin username and password that you just created, you will have access to the main admin section of the site</p>
+    <li>When you are finished looking through the default site, you can stop the development server by typing <i>CTRL-C</i> in your terminal.</li>
  </ol> 
 
 
