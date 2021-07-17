@@ -6,7 +6,7 @@
     <li>Check the version of Python you have installed: <code>$  python3 --version</code></li>
     <li>Next, let’s install pip from the Ubuntu repositories: <code>$  sudo apt install python3-pip</code></li>
     <li>Once pip is installed, you can use it to install the venv package: <code>$  sudo apt install python3-venv</code></li>
-    <li>Create a directory for your project and and moving into a new project directory:
+    <li><b>Create a directory for your project and and moving into a new project directory:</b>
       <ul>
         <li><code>$  mkdir ~/<i>newproject</i></code></li>
         <li><code>$  cd <i>newproject</i></code></li>  
