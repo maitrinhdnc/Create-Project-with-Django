@@ -13,7 +13,8 @@
       </ul>
     </li>
     <li>Next, create a virtual environment within the project directory: <code>$  python3.<strong>8</strong> -m venv my_env</code></li>
-    <li>To install packages into the isolated environment, activate it by typing: <code>$  source my_env/bin/activate</code></li>
+    <li>To install packages into the isolated environment, activate it by typing: 
+      <code>$ source my_env/bin/activate</code></li>
     <li>Install Django: <code><i>(my_venv)</i> $ pip install django</code></li>
     <li>Check whether Django installed: <code><i>(my_venv)</i> $ django-admin --version</code></li>
     <li>Create Folder Project: <code>$  django-admin startproject crm_project</code></li>
