@@ -36,10 +36,14 @@
     <p>If you enter the admin username and password that you just created, you will have access to the main admin section of the site</p>
     <li>When you are finished looking through the default site, you can stop the development server by typing <i>CTRL-C</i> in your terminal.</li>
  </ol> 
-<h3> Install PostgreSQL, pgAdmin4</h3>
+ 
+<h3> Install PostgreSQL, DBeaver(already have in Ubuntu Software)</h3>
 <p>Refer two links to install: </p>
 <a href = "https://phoenixnap.com/kb/how-to-install-postgresql-on-ubuntu">PostgreSQL</a>
-<a href = "https://tecadmin.net/how-to-install-pgadmin4-on-ubuntu-20-04/">pgAdmin4</a>
+
+<code> python3 -m pip install --upgrade pip </code>
+<code> pip install psycopg2-binary </code>
+
 
 
 
