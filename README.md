@@ -40,9 +40,10 @@
 <h3> Install PostgreSQL, DBeaver(already have in Ubuntu Software)</h3>
 <p>Refer two links to install: </p>
 <a href = "https://phoenixnap.com/kb/how-to-install-postgresql-on-ubuntu">PostgreSQL</a>
-
-<code> python3 -m pip install --upgrade pip </code>
-<code> pip install psycopg2-binary </code>
+<ul>
+  <li><code> python3 -m pip install --upgrade pip </code></li>  
+  <li><code> pip install psycopg2-binary </code></li>
+</ul>
 
 
 
