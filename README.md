@@ -1,4 +1,3 @@
-# Customer_Management_Django
 
 <h3>Create Django Project</h3>
   <ol>
