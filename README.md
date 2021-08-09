@@ -13,7 +13,6 @@
     <li>To install packages into the isolated environment, activate it by typing: 
       <code>$ source my_env/bin/activate</code></li>
     <li>Check version Django: <code><i>(my_venv)</i> $ django-admin --version</code></li>
-
     <li>Migrate the database: <code>$ python manage.py migrate</code></li>
     <li>Finally, let’s create an administrative user so that you can use the Djano admin interface. Let’s do this with the createsuperuser command
       <code>python manage.py createsuperuser</code>
