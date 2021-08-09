@@ -3,11 +3,12 @@
   <ol>
     <li><b>Create a directory which include all django projects</b>
       <ul>
-        <li><code>$  mkdir ~/<i>'django folder'</i></code></li>
-        <li><code>$  cd <i>cd 'django folder'</i></code></li>  
+        <li><code>$  mkdir ~/<i>django-folder</i></code></li>
+        <li><code>$  cd <i>django-folder</i></code></li>  
       </ul>
     </li>
-    <li>Next, create a virtual environment within the project directory: <code>$  python3.<strong>8</strong> -m venv my_env</code></li>
+    <li><code>$ pip install django </code></li>
+    <li>Next, create a virtual environment within the project directory: <code>$ virtualenv "my_env"</code></li>
     <li>To install packages into the isolated environment, activate it by typing: 
       <code>$ source my_env/bin/activate</code></li>
     <li>Install Django: <code><i>(my_venv)</i> $ pip install django</code></li>
