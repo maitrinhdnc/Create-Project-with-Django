@@ -7,14 +7,13 @@
         <li><code>$  cd <i>django-folder</i></code></li>  
       </ul>
     </li>
-    <li><code>$ pip install django </code></li>
+    <li>Install Django: <code>$ pip install django </code></li>
+    <li>Create Folder Project: <code>$  django-admin startproject your_project</code></li>
     <li>Next, create a virtual environment within the project directory: <code>$ virtualenv "my_env"</code></li>
     <li>To install packages into the isolated environment, activate it by typing: 
       <code>$ source my_env/bin/activate</code></li>
-    <li>Install Django: <code><i>(my_venv)</i> $ pip install django</code></li>
     <li>Check whether Django installed: <code><i>(my_venv)</i> $ django-admin --version</code></li>
-    <li>Create Folder Project: <code>$  django-admin startproject crm_project</code></li>
-    <li>Move in to a project: <code>$  cd <i>crm_project</i></code></li>
+
     <li>Migrate the database: <code>$ python manage.py migrate</code></li>
     <li>Finally, let’s create an administrative user so that you can use the Djano admin interface. Let’s do this with the createsuperuser command
       <code>python manage.py createsuperuser</code>
