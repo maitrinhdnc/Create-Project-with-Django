@@ -41,6 +41,10 @@
 </ul>
 
 
+sudo apt install libpq-dev python3-dev
+pip3 install psycopg2
+
+
 
 
 
