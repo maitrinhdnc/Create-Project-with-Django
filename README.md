@@ -39,10 +39,11 @@
   <li><code> python3 -m pip install --upgrade pip </code></li>  
   <li><code> pip install psycopg2-binary </code></li>
 </ul>
+<ul>
+  <li><code> sudo apt install libpq-dev python3-dev </code></li>  
+  <li><code> pip3 install psycopg2 </code></li>
+</ul>
 
-
-sudo apt install libpq-dev python3-dev
-pip3 install psycopg2
 
 
 
